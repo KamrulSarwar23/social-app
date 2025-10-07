@@ -1,12 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
-import Ad from "../Ad";
+import Image from "next/image";
 import ProfileCard from "./ProfileCard";
+import Ad from "../Ad";
 
-const LeftMenu = () => {
+const LeftMenu = ({ type }: { type: "home" | "profile" }) => {
   return (
     <div className="flex flex-col gap-6">
-      <ProfileCard />
+      {type === "home" && <ProfileCard />}
       <div className="p-4 bg-white rounded-lg shadow-md text-sm text-gray-500 flex flex-col gap-2">
         <Link
           href="/"
@@ -88,7 +88,7 @@ const LeftMenu = () => {
           <span>Settings</span>
         </Link>
       </div>
-      <Ad />
+      <Ad size="sm" />
     </div>
   );
 };

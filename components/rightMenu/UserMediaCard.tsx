@@ -21,6 +21,65 @@ const UserMediaCard = async () => {
             className="object-cover rounded-md"
           />
         </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
+
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
+        <div className="relative w-1/5 h-24">
+          <Image
+            src="https://images.pexels.com/photos/34104581/pexels-photo-34104581.jpeg"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        </div>
       </div>
     </div>
   );

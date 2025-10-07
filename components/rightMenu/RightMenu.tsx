@@ -4,7 +4,7 @@ import FriendRequests from "./FriendRequests";
 import UserInfoCard from "./UserInfoCard";
 import UserMediaCard from "./UserMediaCard";
 
-const RightMenu = () => {
+const RightMenu = ({ userId }: { userId?: string }) => {
   return (
     <div className="flex flex-col gap-6">
       <>
@@ -15,7 +15,7 @@ const RightMenu = () => {
 
       <FriendRequests />
       <Birthdays />
-      <Ad />
+      <Ad size="md" />
     </div>
   );
 };
